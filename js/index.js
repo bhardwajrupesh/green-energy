@@ -40,7 +40,7 @@ const container = document.querySelector(".content");
 
 function pageLoad() {
 	container.innerHTML = `<h1>${obj.solarpanel.headingcont}</h1>
-                      <img src ="${obj.solarpanel.imgurl}" alt="${obj.solarpanel.imgAlt}" style="width:350px; height:350px">;
+                      <img src ="${obj.solarpanel.imgurl}" alt="${obj.solarpanel.imgAlt}" style="width:350px; height:350px">
                       <p>${obj.solarpanel.bodytxt}</p>`;
 }
 
